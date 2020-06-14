@@ -28,11 +28,6 @@ class App extends React.Component {
 
     return (
       <div className={styles.container}>
-        <p>Prakhar Agarwal</p>
-        <p>Prakhar Agarwal</p>
-        <p>Prakhar Agarwal</p>
-        <p>Prakhar Agarwal</p>
-
         <img className={styles.image} src={image} alt="COVID-19" />
         <Cards data={data} />
         <CountryPicker handleCountryChange={this.handleCountryChange} />
